@@ -2,9 +2,9 @@
 #!desc=Block Advertising with Script for Surge iOS
 #!system=ios
 
-#[URL Rewrite]
+[URL Rewrite]
 # > Douyin By Choler
-#^https?:\/\/(.*)\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ https://$1.amemv.com/aweme/v1/$2feed/ header
+^https?:\/\/(.*)\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ https://$1.amemv.com/aweme/v1/$2feed/ header
 
 [Script]
 # ---(By Choler)---
